@@ -9,6 +9,9 @@ $english = array(
     'jquery_ui:second' => 'Second',
     'jquery_ui:next' => 'Prev',
     'jquery_ui:prev' => 'Next',
+    'jquery_ui:day' => 'Day',
+    'jquery_ui:month' => 'Month',
+    'jquery_ui:year' => 'Year',
 
     'day:name:seg' => 'Monday',
     'day:name:ter' => 'Tuesday',

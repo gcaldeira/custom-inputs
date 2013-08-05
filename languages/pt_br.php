@@ -10,6 +10,9 @@ $portugues_brasileiro = array(
     'jquery_ui:second' => 'Segundo',
     'jquery_ui:next' => 'Próximo',
     'jquery_ui:prev' => 'Anterior',
+    'jquery_ui:day' => 'Dia',
+    'jquery_ui:month' => 'Mês',
+    'jquery_ui:year' => 'Ano',
 
     'day:name:seg' => 'Segunda',
     'day:name:ter' => 'Terça',

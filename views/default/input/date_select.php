@@ -26,23 +26,23 @@ if (is_numeric($vars['value'])) {
     //$vars['value'] = gmdate('Y-m-d', $vars['value']);
 }
 
-//Dias
+//Dia
 $dias = array();
-$dias[] = 'Dia:';
+$dias[] = elgg_echo('jquery_ui:day');
 for($i=1; $i<=31; $i++){
     $dias[] = $i;
 }
 
 //Mês
 $meses = array();
-$meses[] = 'Mês';
+$meses[] = elgg_echo('jquery_ui:month');
 for($i=1; $i<=12; $i++){
     $meses[$i] = date("F",mktime(0,0,0,$i,1,2011));
 }
 
 //Ano
 $anos = array();
-$anos[] = 'Ano:';
+$anos[] = elgg_echo('jquery_ui:year');
 for($i=date('Y'); $i>=date('Y')-110; $i--){
     $anos[] = $i;
 }
@@ -81,7 +81,7 @@ for($i=date('Y'); $i>=date('Y')-110; $i--){
             var mes = $('select[name=<?php echo $vars['name'];?>-mes] option:selected').val();
             var ano = $('select[name=<?php echo $vars['name'];?>-ano] option:selected').val();
 
-            if(dia != 'Dia:' && mes != 'Mês' && ano != 'Ano:'){
+            if(dia != "<?php echo elgg_echo('jquery_ui:day'); ?>" && mes != "<?php echo elgg_echo('jquery_ui:month'); ?>" && ano != "<?php echo elgg_echo('jquery_ui:year'); ?>"){
                 campo_data.val(dia + '/' + mes + '/' + ano);
             }
         });

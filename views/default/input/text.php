@@ -1,5 +1,7 @@
 <?php
 
+jquery_ui_validate();
+
 if (isset($vars['class'])) {
     $vars['class'] = "elgg-input-text {$vars['class']}";
 } else {

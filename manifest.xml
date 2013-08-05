@@ -5,10 +5,10 @@
 	<version>1.0</version>
 	<category>content</category>
 	<blurb>Customized inputs to rich Elgg</blurb>
-	<description>Enables same input types like timepicker, datepicker...</description>
+	<description>Enables in Elgg new input types like timepicker, date selection...</description>
 	<website>http://socialpro.com.br/</website>
 	<copyright>SocialPRO</copyright>
-	<license>Private</license>
+	<license>GNU General Public License version 2</license>
 	<requires>
 		<type>elgg_release</type>
 		<version>1.8</version>
